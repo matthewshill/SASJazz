@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA9A5CE1A644E19003B64AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9A5CD1A644E19003B64AF /* main.m */; };
+		5CA9A5D11A644E19003B64AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9A5D01A644E19003B64AF /* AppDelegate.m */; };
+		5CA9A5D41A644E19003B64AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9A5D31A644E19003B64AF /* ViewController.m */; };
+		5CA9A5D71A644E19003B64AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9A5D51A644E19003B64AF /* Main.storyboard */; };
+		5CA9A5D91A644E19003B64AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9A5D81A644E19003B64AF /* Images.xcassets */; };
+		5CA9A5DC1A644E19003B64AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9A5DA1A644E19003B64AF /* LaunchScreen.xib */; };
+		5CA9A5E81A644E19003B64AF /* SASJazzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9A5E71A644E19003B64AF /* SASJazzTests.m */; };
+		5CA9A5F21A644F14003B64AF /* DRUM_LOOP_FOR_MATTHEW.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9A5F11A644F14003B64AF /* DRUM_LOOP_FOR_MATTHEW.mp3 */; };
+		5CA9A5F41A645076003B64AF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9A5F31A645076003B64AF /* AVFoundation.framework */; };
+		5CA9A5F61A648931003B64AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9A5F51A648931003B64AF /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CA9A5E21A644E19003B64AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA9A5C01A644E19003B64AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA9A5C71A644E19003B64AF;
+			remoteInfo = SASJazz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CA9A5C81A644E19003B64AF /* SASJazz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SASJazz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA9A5CC1A644E19003B64AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA9A5CD1A644E19003B64AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CA9A5CF1A644E19003B64AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CA9A5D01A644E19003B64AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CA9A5D21A644E19003B64AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CA9A5D31A644E19003B64AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CA9A5D61A644E19003B64AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CA9A5D81A644E19003B64AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CA9A5DB1A644E19003B64AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5CA9A5E11A644E19003B64AF /* SASJazzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SASJazzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA9A5E61A644E19003B64AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA9A5E71A644E19003B64AF /* SASJazzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SASJazzTests.m; sourceTree = "<group>"; };
+		5CA9A5F11A644F14003B64AF /* DRUM_LOOP_FOR_MATTHEW.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DRUM_LOOP_FOR_MATTHEW.mp3; sourceTree = "<group>"; };
+		5CA9A5F31A645076003B64AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5CA9A5F51A648931003B64AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA9A5C51A644E19003B64AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9A5F61A648931003B64AF /* QuartzCore.framework in Frameworks */,
+				5CA9A5F41A645076003B64AF /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA9A5DE1A644E19003B64AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA9A5BF1A644E19003B64AF = {
+			isa = PBXGroup;
+			children = (
+				5CA9A5F31A645076003B64AF /* AVFoundation.framework */,
+				5CA9A5F51A648931003B64AF /* QuartzCore.framework */,
+				5CA9A5CA1A644E19003B64AF /* SASJazz */,
+				5CA9A5E41A644E19003B64AF /* SASJazzTests */,
+				5CA9A5C91A644E19003B64AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA9A5C91A644E19003B64AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9A5C81A644E19003B64AF /* SASJazz.app */,
+				5CA9A5E11A644E19003B64AF /* SASJazzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA9A5CA1A644E19003B64AF /* SASJazz */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9A5CF1A644E19003B64AF /* AppDelegate.h */,
+				5CA9A5D01A644E19003B64AF /* AppDelegate.m */,
+				5CA9A5D21A644E19003B64AF /* ViewController.h */,
+				5CA9A5D31A644E19003B64AF /* ViewController.m */,
+				5CA9A5D51A644E19003B64AF /* Main.storyboard */,
+				5CA9A5D81A644E19003B64AF /* Images.xcassets */,
+				5CA9A5DA1A644E19003B64AF /* LaunchScreen.xib */,
+				5CA9A5CB1A644E19003B64AF /* Supporting Files */,
+			);
+			path = SASJazz;
+			sourceTree = "<group>";
+		};
+		5CA9A5CB1A644E19003B64AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9A5F11A644F14003B64AF /* DRUM_LOOP_FOR_MATTHEW.mp3 */,
+				5CA9A5CC1A644E19003B64AF /* Info.plist */,
+				5CA9A5CD1A644E19003B64AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA9A5E41A644E19003B64AF /* SASJazzTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9A5E71A644E19003B64AF /* SASJazzTests.m */,
+				5CA9A5E51A644E19003B64AF /* Supporting Files */,
+			);
+			path = SASJazzTests;
+			sourceTree = "<group>";
+		};
+		5CA9A5E51A644E19003B64AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9A5E61A644E19003B64AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA9A5C71A644E19003B64AF /* SASJazz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA9A5EB1A644E19003B64AF /* Build configuration list for PBXNativeTarget "SASJazz" */;
+			buildPhases = (
+				5CA9A5C41A644E19003B64AF /* Sources */,
+				5CA9A5C51A644E19003B64AF /* Frameworks */,
+				5CA9A5C61A644E19003B64AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SASJazz;
+			productName = SASJazz;
+			productReference = 5CA9A5C81A644E19003B64AF /* SASJazz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CA9A5E01A644E19003B64AF /* SASJazzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA9A5EE1A644E19003B64AF /* Build configuration list for PBXNativeTarget "SASJazzTests" */;
+			buildPhases = (
+				5CA9A5DD1A644E19003B64AF /* Sources */,
+				5CA9A5DE1A644E19003B64AF /* Frameworks */,
+				5CA9A5DF1A644E19003B64AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA9A5E31A644E19003B64AF /* PBXTargetDependency */,
+			);
+			name = SASJazzTests;
+			productName = SASJazzTests;
+			productReference = 5CA9A5E11A644E19003B64AF /* SASJazzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA9A5C01A644E19003B64AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Matthew S. Hill";
+				TargetAttributes = {
+					5CA9A5C71A644E19003B64AF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5CA9A5E01A644E19003B64AF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5CA9A5C71A644E19003B64AF;
+					};
+				};
+			};
+			buildConfigurationList = 5CA9A5C31A644E19003B64AF /* Build configuration list for PBXProject "SASJazz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CA9A5BF1A644E19003B64AF;
+			productRefGroup = 5CA9A5C91A644E19003B64AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA9A5C71A644E19003B64AF /* SASJazz */,
+				5CA9A5E01A644E19003B64AF /* SASJazzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA9A5C61A644E19003B64AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9A5D71A644E19003B64AF /* Main.storyboard in Resources */,
+				5CA9A5DC1A644E19003B64AF /* LaunchScreen.xib in Resources */,
+				5CA9A5D91A644E19003B64AF /* Images.xcassets in Resources */,
+				5CA9A5F21A644F14003B64AF /* DRUM_LOOP_FOR_MATTHEW.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA9A5DF1A644E19003B64AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA9A5C41A644E19003B64AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9A5D41A644E19003B64AF /* ViewController.m in Sources */,
+				5CA9A5D11A644E19003B64AF /* AppDelegate.m in Sources */,
+				5CA9A5CE1A644E19003B64AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA9A5DD1A644E19003B64AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9A5E81A644E19003B64AF /* SASJazzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CA9A5E31A644E19003B64AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA9A5C71A644E19003B64AF /* SASJazz */;
+			targetProxy = 5CA9A5E21A644E19003B64AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CA9A5D51A644E19003B64AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA9A5D61A644E19003B64AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA9A5DA1A644E19003B64AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA9A5DB1A644E19003B64AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CA9A5E91A644E19003B64AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CA9A5EA1A644E19003B64AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA9A5EC1A644E19003B64AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SASJazz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CA9A5ED1A644E19003B64AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SASJazz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CA9A5EF1A644E19003B64AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SASJazzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SASJazz.app/SASJazz";
+			};
+			name = Debug;
+		};
+		5CA9A5F01A644E19003B64AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SASJazzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SASJazz.app/SASJazz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA9A5C31A644E19003B64AF /* Build configuration list for PBXProject "SASJazz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA9A5E91A644E19003B64AF /* Debug */,
+				5CA9A5EA1A644E19003B64AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA9A5EB1A644E19003B64AF /* Build configuration list for PBXNativeTarget "SASJazz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA9A5EC1A644E19003B64AF /* Debug */,
+				5CA9A5ED1A644E19003B64AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA9A5EE1A644E19003B64AF /* Build configuration list for PBXNativeTarget "SASJazzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA9A5EF1A644E19003B64AF /* Debug */,
+				5CA9A5F01A644E19003B64AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA9A5C01A644E19003B64AF /* Project object */;
+}
