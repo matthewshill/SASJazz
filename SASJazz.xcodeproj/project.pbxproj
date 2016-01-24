@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C89F6581C545299007DD9E9 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 5C89F6561C545076007DD9E9 /* icons */; };
 		5CA9A5CE1A644E19003B64AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9A5CD1A644E19003B64AF /* main.m */; };
 		5CA9A5D11A644E19003B64AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9A5D01A644E19003B64AF /* AppDelegate.m */; };
 		5CA9A5D41A644E19003B64AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9A5D31A644E19003B64AF /* ViewController.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C89F6561C545076007DD9E9 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
 		5CA9A5C81A644E19003B64AF /* SASJazz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SASJazz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA9A5CC1A644E19003B64AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CA9A5CD1A644E19003B64AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,11 +70,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5CA9A5BF1A644E19003B64AF = {
+		5C5B7C3A1C30D442003FCA3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5CA9A5F31A645076003B64AF /* AVFoundation.framework */,
 				5CA9A5F51A648931003B64AF /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CA9A5BF1A644E19003B64AF = {
+			isa = PBXGroup;
+			children = (
 				5CA9A5CA1A644E19003B64AF /* SASJazz */,
 				5CA9A5E41A644E19003B64AF /* SASJazzTests */,
 				5CA9A5C91A644E19003B64AF /* Products */,
@@ -91,6 +100,7 @@
 		5CA9A5CA1A644E19003B64AF /* SASJazz */ = {
 			isa = PBXGroup;
 			children = (
+				5C5B7C3A1C30D442003FCA3E /* Frameworks */,
 				5CA9A5CF1A644E19003B64AF /* AppDelegate.h */,
 				5CA9A5D01A644E19003B64AF /* AppDelegate.m */,
 				5CA9A5D21A644E19003B64AF /* ViewController.h */,
@@ -106,6 +116,7 @@
 		5CA9A5CB1A644E19003B64AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C89F6561C545076007DD9E9 /* icons */,
 				5CA9A5F11A644F14003B64AF /* DRUM_LOOP_FOR_MATTHEW.mp3 */,
 				5CA9A5CC1A644E19003B64AF /* Info.plist */,
 				5CA9A5CD1A644E19003B64AF /* main.m */,
@@ -210,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C89F6581C545299007DD9E9 /* icons in Resources */,
 				5CA9A5D71A644E19003B64AF /* Main.storyboard in Resources */,
 				5CA9A5DC1A644E19003B64AF /* LaunchScreen.xib in Resources */,
 				5CA9A5D91A644E19003B64AF /* Images.xcassets in Resources */,

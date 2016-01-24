@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,81 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UB-7m-6l8">
+                                <rect key="frame" x="0.0" y="471" width="84" height="92"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="60"/>
+                                <state key="normal" title="A">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oxd-RW-RMg">
+                                <rect key="frame" x="112" y="468" width="92" height="88"/>
+                                <state key="normal" image="icons/playButton.png" backgroundImage="playButton.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2NL-7q-UKy">
+                                <rect key="frame" x="7" y="24" width="22" height="22"/>
+                                <state key="normal" title="Temp Button" image="icons/feelIcon1.png" backgroundImage="feelIcon1.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EPw-mm-EQF">
+                                <rect key="frame" x="36" y="24" width="22" height="22"/>
+                                <state key="normal" title="Temp Button 2" image="icons/feelIcon2.png" backgroundImage="feelIcon2.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8l-x3-yba">
+                                <rect key="frame" x="63" y="24" width="22" height="22"/>
+                                <state key="normal" title="Temp Button 3" image="icons/feelIcon3.png" backgroundImage="feelIcon3.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFd-7L-IRG">
+                                <rect key="frame" x="92" y="24" width="22" height="22"/>
+                                <state key="normal" title="Temp Button 4" image="icons/feelIcon4.png" backgroundImage="feelIcon4.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ib-GC-yL3">
+                                <rect key="frame" x="121" y="24" width="22" height="22"/>
+                                <state key="normal" title="Temp Button 5" image="icons/feelIcon5.png" backgroundImage="feelIcon5.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGg-36-95G">
+                                <rect key="frame" x="180" y="24" width="22" height="22"/>
+                                <state key="normal" title="Button" image="icons/tempIcon.png" backgroundImage="tempIcon.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cK4-zq-BAY">
+                                <rect key="frame" x="210" y="24" width="22" height="22"/>
+                                <state key="normal" title="Button" image="icons/tempIcon2.png" backgroundImage="tempIcon2.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXR-k8-VAF">
+                                <rect key="frame" x="248" y="495" width="50" height="44"/>
+                                <state key="normal" image="icons/sticksIcon.png" backgroundImage="sticksIcon.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="drumStickButton" destination="KXR-k8-VAF" id="7pQ-ej-4Mr"/>
+                        <outlet property="feelButton" destination="0UB-7m-6l8" id="Eg7-K7-hwM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="424" y="415"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="feelIcon1.png" width="268" height="268"/>
+        <image name="feelIcon2.png" width="268" height="268"/>
+        <image name="feelIcon3.png" width="268" height="268"/>
+        <image name="feelIcon4.png" width="268" height="268"/>
+        <image name="feelIcon5.png" width="268" height="268"/>
+        <image name="icons/feelIcon1.png" width="16" height="16"/>
+        <image name="icons/feelIcon2.png" width="16" height="16"/>
+        <image name="icons/feelIcon3.png" width="16" height="16"/>
+        <image name="icons/feelIcon4.png" width="16" height="16"/>
+        <image name="icons/feelIcon5.png" width="16" height="16"/>
+        <image name="icons/playButton.png" width="16" height="16"/>
+        <image name="icons/sticksIcon.png" width="16" height="16"/>
+        <image name="icons/tempIcon.png" width="16" height="16"/>
+        <image name="icons/tempIcon2.png" width="16" height="16"/>
+        <image name="playButton.png" width="806" height="806"/>
+        <image name="sticksIcon.png" width="287" height="241"/>
+        <image name="tempIcon.png" width="268" height="268"/>
+        <image name="tempIcon2.png" width="268" height="268"/>
+    </resources>
 </document>

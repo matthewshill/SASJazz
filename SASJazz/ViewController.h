@@ -16,6 +16,8 @@
 - (IBAction)play:(id)sender;
 - (IBAction)stop:(id)sender;
 - (IBAction)loop:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *drumStickButton;
+@property (weak, nonatomic) IBOutlet UIButton *feelButton;
 
 @end
 

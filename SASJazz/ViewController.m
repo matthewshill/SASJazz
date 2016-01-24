@@ -19,6 +19,8 @@
     UIButton *loopButton;
     UIButton *medRateButton;
     UIButton *fastRateButton;
+    BOOL brushes;
+    BOOL active;
 }
 
 @end
@@ -28,6 +30,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
     NSString *path = [NSString stringWithFormat:@"%@/DRUM_LOOP_FOR_MATTHEW.mp3", [[NSBundle mainBundle] resourcePath]];
     NSURL *soundUrl = [NSURL fileURLWithPath:path];
     
@@ -44,7 +48,12 @@
         _audioPlayer.enableRate = YES;
     }
     
-    [self setup];
+    [self.view setBackgroundColor:[UIColor colorWithRed:(50.0/200.0) green:(50.0/200.0) blue:(50.0/200.0) alpha:1]];
+    [self.drumStickButton addTarget:self action:@selector(switchToBrushes:) forControlEvents:UIControlEventTouchUpInside];
+    [self.feelButton addTarget:self action:@selector(switchFeel:) forControlEvents:UIControlEventTouchUpInside];
+    
+    //[self setupUI];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -52,7 +61,7 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)setup{
+-(void)setupUI{
     _volControl = [[UISlider alloc] initWithFrame:CGRectMake(20, 60, 320, 10)];
     [_volControl addTarget:self action:@selector(adjustVol:) forControlEvents:UIControlEventTouchUpInside];
     _volControl.value = _audioPlayer.volume;
@@ -122,10 +131,33 @@
 #pragma mark AVAudioPlayerDelegate Protocol Methods
 
 #pragma UI instance methods
+-(IBAction)switchToBrushes:(id)sender{
+    if (!brushes) {
+        [self.drumStickButton setImage:[UIImage imageNamed:@"icons/brushesIcon.png"] forState:UIControlStateNormal];
+        brushes = true;
+    }
+    else {
+        [self.drumStickButton setImage:[UIImage imageNamed:@"icons/sticksIcon.png"] forState:UIControlStateNormal];
+        brushes = false;
+    }
+}
+
 - (IBAction)adjustVol:(id)sender {
     if (_audioPlayer != nil) {
         _audioPlayer.volume = _volControl.value;
     }
+}
+
+-(IBAction)switchFeel:(id)sender{
+    if (active) {
+            [self.feelButton setTitle:@"S" forState:UIControlStateNormal];
+        active = false;
+    }
+    else {
+        [self.feelButton setTitle:@"A" forState:UIControlStateNormal];
+        active = true;
+    }
+
 }
 - (IBAction)slowRate:(id)sender{
     _audioPlayer.rate = 0.5f;
@@ -156,6 +188,10 @@
 }
 - (IBAction)pause:(id)sender{
     [_audioPlayer pause];
+}
+
+-(BOOL)prefersStatusBarHidden{
+    return YES;
 }
 
 @end
